@@ -1,0 +1,51 @@
+
+
+
+
+
+$vista: mobile;
+@if vista == a mobile {
+    @media only screen and (max-width:679px){
+        .sucursales--card__flex {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .card {margin: 2%;}}}  
+    @media only screen and (min-width:680px){
+        .sucursales--card__flex {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            .card {margin: 0% 2% 3% 2%;}}}}
+
+
+$vista: mobile;
+@if vista == a mobile {
+    @media only screen and (max-width:679px){
+        .blog--card__flex {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .card {margin: 2%;}}}  
+    @media only screen and (min-width:680px){
+        .blog--card__flex {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            .card {margin: 0% 2% 3% 2%;}}}}
+
+/*contacto*/
+
+.form--btn__flex {
+    display: flex;
+    justify-content: center;
+    margin: 2% 0% 1% 0%;
+    .btn {
+        padding: 0.5% 5%;
+        margin: 20%;}   
+}
+
+.form--contacto__flex {
+    margin: 1% 15%;}

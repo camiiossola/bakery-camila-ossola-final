@@ -1,0 +1,424 @@
+.navbar {
+  display: flex;
+  align-items: center; }
+  .navbar .navbar-brand {
+    font-family: hatton;
+    font-size: 200%;
+    letter-spacing: 1px; }
+  .navbar .nav-link {
+    font-family: cabin;
+    font-size: 120%; }
+  .navbar .navbar-nav {
+    margin-top: 0.7%; }
+
+.bg-dark {
+  background-color: #151a24 !important; }
+
+/*fijarse como hacer para que el texto seleccionado quede de color*/
+/*logo*/
+.navbar-dark .navbar-brand {
+  color: white; }
+
+.navbar-dark .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+  color: white; }
+
+/*navbar texto*/
+.navbar-dark .navbar-nav .nav-link {
+  color: white; }
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: #687e94; }
+
+.background__footer {
+  background-color: black;
+  padding-bottom: 2%; }
+  .background__footer div form {
+    display: flex;
+    justify-content: center; }
+
+.newsletter--background__footer {
+  background-color: white;
+  margin: 0% 1%; }
+
+.texto__footer {
+  display: flex;
+  justify-content: space-between;
+  font-family: cabin;
+  color: white;
+  text-align: center; }
+  .texto__footer h3 {
+    font-size: 150%;
+    font-style: normal;
+    text-transform: uppercase;
+    margin: 5% 0% 1% 0%; }
+  .texto__footer a {
+    font-family: cabin;
+    font-size: 100%;
+    text-decoration: none;
+    font-style: italic;
+    color: white; }
+  .texto__footer h5 {
+    font-size: 100%;
+    font-style: italic;
+    margin: 1% 0%; }
+
+.redes__footer {
+  background-color: #9abeff;
+  display: flex;
+  justify-content: center; }
+  .redes__footer a {
+    margin: 1% 1%; }
+
+.copy__footer {
+  background-color: black; }
+  .copy__footer h6 {
+    font-family: playfair;
+    font-size: 80%;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 0.5%; }
+
+.newsletter--mail__footer div {
+  display: flex;
+  flex-direction: column; }
+  .newsletter--mail__footer div .btn {
+    margin: 2% 0%;
+    color: black;
+    border: none;
+    background-color: #9abeff; }
+
+@font-face {
+  font-family: "hatton";
+  src: url(../assets/font/Hatton); }
+
+@font-face {
+  font-family: "playfair";
+  src: url(../assets/font/Playfair_Display); }
+
+@font-face {
+  font-family: "cabin";
+  src: url(../assets/font/Cabin/Cabin-VariableFont_wdth\,wght.ttf); }
+
+/*INICIO*/
+.index--tittle__texto h1 {
+  font-family: playfair;
+  font-size: 300%;
+  color: white;
+  font-style: normal;
+  text-align: center; }
+
+.index--tittle__texto h3 {
+  font-family: playfair;
+  font-size: 150%;
+  color: white;
+  font-style: italic;
+  text-align: center; }
+
+/*SUCURSALES*/
+.sucursales--tittle__texto {
+  padding: 15% 0% 25% 0%;
+  margin-bottom: 2%; }
+  .sucursales--tittle__texto h1 {
+    font-family: playfair;
+    font-size: 300%;
+    color: white;
+    font-style: normal;
+    text-align: center; }
+  .sucursales--tittle__texto h3 {
+    font-family: playfair;
+    font-size: 150%;
+    color: white;
+    font-style: italic;
+    text-align: center; }
+
+.sucursales--card__texto h5 {
+  font-family: cabin;
+  font-size: 150%;
+  color: black;
+  font-style: normal;
+  text-align: center;
+  margin: 2%; }
+
+.sucursales--card__texto p {
+  font-family: cabin;
+  font-size: 100%;
+  color: black;
+  font-style: normal;
+  text-align: center;
+  padding: 0%;
+  margin: 1%; }
+
+/*PRODUCTOS*/
+.productos--tittle__texto {
+  padding: 15% 0% 25% 0%;
+  padding: 15% 15% 20% 15%; }
+  .productos--tittle__texto h1 {
+    font-family: playfair;
+    font-size: 250%;
+    color: white;
+    font-style: normal;
+    text-align: center; }
+  .productos--tittle__texto h3 {
+    font-family: playfair;
+    font-size: 120%;
+    color: white;
+    font-style: italic;
+    text-align: center; }
+
+.productos--info__texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.418); }
+  .productos--info__texto h5 {
+    font-family: playfair;
+    color: white;
+    text-transform: uppercase;
+    padding: 2% 5%; }
+  .productos--info__texto p {
+    font-family: cabin;
+    color: white;
+    margin: 0%;
+    padding: 1%; }
+
+@media only screen and (max-width: 679px) {
+  .productos--info__texto h5 {
+    font-size: 200%;
+    padding: 1%; }
+  .productos--info__texto p {
+    font-size: 80%; } }
+
+@media only screen and (min-width: 680px) {
+  .productos--info__texto h5 {
+    font-size: 250%;
+    padding: 2%; }
+  .productos--info__texto p {
+    font-size: 100%; } }
+
+/*BLOG*/
+/*SUCURSALES*/
+.blog--tittle__texto {
+  padding: 15% 0% 20% 0%; }
+  .blog--tittle__texto h1 {
+    font-family: playfair;
+    font-size: 300%;
+    color: white;
+    font-style: normal;
+    text-align: center; }
+  .blog--tittle__texto h3 {
+    font-family: playfair;
+    font-size: 150%;
+    color: white;
+    font-style: italic;
+    text-align: center; }
+
+/*CONTACTOS*/
+.contacto--titulo__texto {
+  padding: 5% 0% 1% 0%;
+  padding-top: 5%; }
+  .contacto--titulo__texto h1 {
+    font-family: playfair;
+    font-size: 300%;
+    color: white;
+    font-style: normal;
+    text-align: center; }
+  .contacto--titulo__texto h3 {
+    font-family: playfair;
+    font-size: 150%;
+    color: white;
+    font-style: italic;
+    text-align: center; }
+
+.contacto--tituloTrab__texto {
+  padding: 1% 0% 5% 0%;
+  display: flex;
+  justify-content: center;
+  padding-top: 5%; }
+  .contacto--tituloTrab__texto h1 {
+    font-family: playfair;
+    font-size: 200%;
+    color: black;
+    text-transform: uppercase;
+    font-style: normal;
+    text-align: center; }
+  .contacto--tituloTrab__texto h3 {
+    font-family: playfair;
+    font-size: 150%;
+    color: white;
+    font-style: italic;
+    text-align: center; }
+
+/*NOSOTROS CARD*/
+@media only screen and (max-width: 679px) {
+  .blog--card__texto h5 {
+    font-family: cabin;
+    font-size: 130%;
+    text-transform: uppercase;
+    color: black;
+    font-style: normal;
+    text-align: center;
+    margin: 2%; }
+  .blog--card__texto h6 {
+    font-family: cabin;
+    font-size: 100%;
+    color: black;
+    font-style: italic;
+    text-align: center;
+    margin: 2%; }
+  .blog--card__texto p {
+    font-family: cabin;
+    font-size: 80%;
+    color: black;
+    font-style: normal;
+    text-align: center;
+    padding: 0%;
+    margin: 1%; } }
+
+@media only screen and (min-width: 680px) {
+  .blog--card__texto h5 {
+    font-family: cabin;
+    font-size: 150%;
+    text-transform: uppercase;
+    color: black;
+    font-style: normal;
+    text-align: center;
+    margin: 2%; }
+  .blog--card__texto h6 {
+    font-family: cabin;
+    font-size: 120%;
+    color: black;
+    font-style: italic;
+    text-align: center;
+    margin: 2%; }
+  .blog--card__texto p {
+    font-family: cabin;
+    font-size: 100%;
+    color: black;
+    font-style: normal;
+    text-align: center;
+    padding: 0%;
+    margin: 1%; } }
+
+.parallax .index--contenido__background {
+  background-image: url("../assets/img/inicio/pexels-davide-baraldi-1739748.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*CHEQUEAR RESPONSIVE*/
+  padding: 15% 0% 25% 0%; }
+
+.parallax .sucursales--titulo__background {
+  background-image: url("../assets/img/locales/local.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.parallax .nosotros--titulo__background {
+  background-image: url("../assets/img/inicio/slide2.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.parallax .productos--titulo__background {
+  background-image: url("../assets/img/inicio/pexels-cottonbro-4829061 (2).jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.parallax .form--titulo__background {
+  background-image: url("../assets/img/inicio/sucursales.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.parallax .form--tituloTrab__background {
+  background-image: url("../assets/img/locales/bakery2.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.form--color__background {
+  background-color: rgba(255, 255, 255, 0.568);
+  margin: 0%;
+  padding-top: 2%; }
+
+/*CONTACTO*/
+@media only screen and (max-width: 679px) {
+  .sucursales--card__flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .sucursales--card__flex .card {
+      margin: 2%; } }
+
+@media only screen and (min-width: 680px) {
+  .sucursales--card__flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    .sucursales--card__flex .card {
+      margin: 0% 2% 3% 2%; } }
+
+@media only screen and (max-width: 679px) {
+  .blog--card__flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .blog--card__flex .card {
+      margin: 2%; } }
+
+@media only screen and (min-width: 680px) {
+  .blog--card__flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    .blog--card__flex .card {
+      margin: 0% 2% 3% 2%; } }
+
+/*contacto*/
+.form--btn__flex {
+  display: flex;
+  justify-content: center;
+  margin: 2% 0% 1% 0%; }
+  .form--btn__flex .btn {
+    padding: 0.5% 5%;
+    margin: 20%; }
+
+.form--contacto__flex {
+  margin: 1% 15%; }
+
+/*productos*/
+.carousel {
+  margin: 2%; }
+
+.btn {
+  background: #151a24;
+  border: none;
+  color: white; }
+
+.btn-outline-secondary:hover {
+  color: black;
+  background-color: #9abeff;
+  border-color: none; }
+
+.btn-primary:hover {
+  color: black;
+  background-color: #9abeff;
+  border-color: none; }

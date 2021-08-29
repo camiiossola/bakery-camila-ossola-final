@@ -1,0 +1,39 @@
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    .navbar-brand {
+    font-family: hatton;
+    font-size: 200%;
+    letter-spacing: 1px;}
+    .nav-link{
+        font-family: cabin;
+        font-size: 120%;}
+    .navbar-nav {margin-top: 0.7%;}
+    
+}
+
+
+
+.bg-dark {
+    background-color: rgb(21, 26, 36) !important;
+  }
+
+/*fijarse como hacer para que el texto seleccionado quede de color*/
+ /*logo*/
+  .navbar-dark .navbar-brand {
+    color: rgb(255, 255, 255);
+  }
+  
+  .navbar-dark .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+    color: rgb(255, 255, 255);
+  }
+  
+  /*navbar texto*/
+  .navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: #687e94;}

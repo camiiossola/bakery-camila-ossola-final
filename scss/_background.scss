@@ -1,0 +1,62 @@
+
+.parallax {
+    .index--contenido__background{
+        background-image: url("../assets/img/inicio/pexels-davide-baraldi-1739748.jpg");
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /*CHEQUEAR RESPONSIVE*/
+        padding: 15% 0% 25% 0%; }
+
+    .sucursales--titulo__background {
+        background-image: url("../assets/img/locales/local.jpg");
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;}
+    .nosotros--titulo__background {
+        background-image: url("../assets/img/inicio/slide2.jpg");
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;}
+
+    .productos--titulo__background {
+        background-image: url("../assets/img/inicio/pexels-cottonbro-4829061\ \(2\).jpg");
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; }
+
+    .form--titulo__background {
+        background-image: url("../assets/img/inicio/sucursales.jpg");
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;}
+    .form--tituloTrab__background {
+        background-image: url("../assets/img/locales/bakery2.jpg");
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;}
+  
+    } 
+    .form--color__background {
+        
+       background-color: rgba(255, 255, 255, 0.568);
+       margin: 0%;
+       padding-top: 2%;
+    }
+
+
+
+    
+/*CONTACTO*/

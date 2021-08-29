@@ -1,0 +1,28 @@
+@import "header";
+@import "footer";
+@import "texto";
+@import "background";
+@import "flex";
+
+/*productos*/
+
+.carousel {margin: 2%;}
+
+.btn {
+    background: rgb(21, 26, 36);
+    border: none;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.btn-outline-secondary:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(154, 190, 255);
+    border-color: none;}  
+
+.btn-primary:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(154, 190, 255);
+  border-color: none;
+}

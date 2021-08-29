@@ -1,0 +1,244 @@
+
+@font-face {
+    font-family: "hatton" ;
+    src: url(../assets/font/Hatton);}
+
+@font-face {
+    font-family: "playfair";
+    src: url(../assets/font/Playfair_Display);}
+
+@font-face {
+    font-family:"cabin";
+    src: url(../assets/font/Cabin/Cabin-VariableFont_wdth\,wght.ttf);}
+
+/*INICIO*/
+.index--tittle__texto {
+    h1 {
+        font-family: playfair;
+        font-size: 300%;
+        color: white;
+        font-style: normal;
+        text-align: center;}
+    h3 {
+        font-family: playfair;
+        font-size: 150%;
+        color: white;
+        font-style: italic;
+        text-align: center;}}
+
+
+/*SUCURSALES*/
+.sucursales--tittle__texto {
+    padding: 15% 0% 25% 0%;
+    margin-bottom: 2%;
+    h1 {
+            font-family: playfair;
+            font-size: 300%;
+            color: rgb(255, 255, 255);
+            font-style: normal;
+            text-align: center;}
+    h3 {
+            font-family: playfair;
+            font-size: 150%;
+            color: rgb(255, 255, 255);
+            font-style: italic;
+            text-align: center;}}
+
+.sucursales--card__texto {
+    h5 {
+        font-family: cabin;
+        font-size: 150% ;
+        color: black;
+        font-style: normal;
+        text-align: center;
+        margin: 2%;
+    }
+    p {
+        font-family: cabin;
+        font-size: 100%;
+        color: black;
+        font-style: normal;
+        text-align: center;
+        padding: 0%;
+        margin: 1%;
+    }}
+
+/*PRODUCTOS*/
+.productos--tittle__texto {
+    padding: 15% 0% 25% 0%;
+    h1 {
+            font-family: playfair;
+            font-size: 250%;
+            color: rgb(255, 255, 255);
+            font-style: normal;
+            text-align: center;}
+    h3 {
+            font-family: playfair;
+            font-size: 120%;
+            color: rgb(255, 255, 255);
+            font-style: italic;
+            text-align: center;}
+            padding: 15% 15% 20% 15%;
+}
+
+
+
+.productos--info__texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.418);
+    
+    h5 {
+        font-family: playfair;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        padding: 2% 5%;
+        }
+    p {
+        font-family: cabin;
+        color: rgb(255, 255, 255);
+        margin: 0%;
+        padding: 1%;}}
+
+
+$vista: mobileProductos;
+@if vista == a mobileProductos {
+    @media only screen and (max-width:679px){
+    .productos--info__texto {
+        h5 {
+            font-size: 200%;
+            padding: 1%;}
+        p {
+            font-size: 80%;}}    
+    }  
+    @media only screen and (min-width:680px){
+    .productos--info__texto {
+        h5 {
+            font-size: 250%;
+            padding: 2%;}
+        p {
+            font-size: 100%;}}}}
+
+/*BLOG*/
+
+
+/*SUCURSALES*/
+.blog--tittle__texto {
+    padding: 15% 0% 20% 0%;
+    h1 {
+            font-family: playfair;
+            font-size: 300%;
+            color: rgb(255, 255, 255);
+            font-style: normal;
+            text-align: center;}
+    h3 {
+            font-family: playfair;
+            font-size: 150%;
+            color: rgb(255, 255, 255);
+            font-style: italic;
+            text-align: center;}}
+
+/*CONTACTOS*/
+.contacto--titulo__texto {
+    padding: 5% 0% 1% 0%;
+    
+    h1 {
+            font-family: playfair;
+            font-size: 300%;
+            color: rgb(255, 255, 255);
+            font-style: normal;
+            text-align: center;}
+            padding-top: 5%;
+    h3 {
+            font-family: playfair;
+            font-size: 150%;
+            color: rgb(255, 255, 255);
+            font-style: italic;
+            text-align: center;}}
+            
+.contacto--tituloTrab__texto {
+    padding: 1% 0% 5% 0%;
+    display: flex;
+    justify-content: center;
+    
+    h1 {
+            font-family: playfair;
+            font-size: 200%;
+            color: rgb(0, 0, 0);
+            text-transform: uppercase;
+            font-style: normal;
+            text-align: center;}
+            padding-top: 5%;
+    h3 {
+            font-family: playfair;
+            font-size: 150%;
+            color: rgb(255, 255, 255);
+            font-style: italic;
+            text-align: center;}
+    
+    }
+
+/*NOSOTROS CARD*/
+
+$vista: mobile;
+@if vista == a mobile {
+    @media only screen and (max-width:679px){
+        .blog--card__texto {
+            h5 {
+                font-family: cabin;
+                font-size: 130% ;
+                text-transform: uppercase;
+                color: black;
+                font-style: normal;
+                text-align: center;
+                margin: 2%;
+            }
+            h6 {
+                font-family: cabin;
+                font-size: 100% ;
+                color: black;
+                font-style: italic;
+                text-align: center;
+                margin: 2%;
+            }
+            p {
+                font-family: cabin;
+                font-size: 80%;
+                color: black;
+                font-style: normal;
+                text-align: center;
+                padding: 0%;
+                margin: 1%;}}
+    
+    }  
+    @media only screen and (min-width:680px){
+        .blog--card__texto {
+            h5 {
+                font-family: cabin;
+                font-size: 150% ;
+                text-transform: uppercase;
+                color: black;
+                font-style: normal;
+                text-align: center;
+                margin: 2%;
+            }
+            h6 {
+                font-family: cabin;
+                font-size: 120% ;
+                color: black;
+                font-style: italic;
+                text-align: center;
+                margin: 2%;
+            }
+            p {
+                font-family: cabin;
+                font-size: 100%;
+                color: black;
+                font-style: normal;
+                text-align: center;
+                padding: 0%;
+                margin: 1%;}}
+    
+    }}
